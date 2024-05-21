@@ -310,6 +310,7 @@ esp_eth_phy_t *esp_eth_phy_new_rtl8201(const eth_phy_config_t *config);
 *      - NULL: create PHY instance failed because some error occurred
 */
 esp_eth_phy_t *esp_eth_phy_new_lan87xx(const eth_phy_config_t *config);
+esp_eth_phy_t *esp_eth_phy_new_jl1101(const eth_phy_config_t *config);
 
 /**
 * @brief Create a PHY instance of DP83848
